@@ -5,10 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>Git_MavenZerodha</groupId>
-  <artifactId>Git_MavenZerodha_1</artifactId>
+  <artifactId>HelloMoto</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-  <name>Git_MavenZerodha_1</name>
+  <name>HelloMoto</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -26,32 +26,26 @@
       <scope>test</scope>
     </dependency>
     <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
- <dependency>
+<dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
     <version>4.1.2</version>
- </dependency>
- <!-- https://mvnrepository.com/artifact/org.testng/testng -->
- <dependency>
-    <groupId>org.testng</groupId>
-    <artifactId>testng</artifactId>
-    <version>7.4.0</version>
-    <scope>test</scope>
- </dependency>
-	<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-scratchpad -->
- <dependency>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-scratchpad -->
+<dependency>
     <groupId>org.apache.poi</groupId>
     <artifactId>poi-scratchpad</artifactId>
     <version>5.2.2</version>
- </dependency>
-	<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
- <dependency>
-    <groupId>io.github.bonigarcia</groupId>
-    <artifactId>webdrivermanager</artifactId>
-    <version>5.0.3</version>
- </dependency>
- 
-    
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.1.0</version>
+    <scope>test</scope>
+</dependency>
+
+
   </dependencies>
 
   <build>
