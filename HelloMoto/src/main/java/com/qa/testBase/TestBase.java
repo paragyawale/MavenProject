@@ -11,8 +11,9 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TestBase {
-	
+
 	WebDriver driver;
+	@Test
 	public void setUp() {
 		
 		String br = "chrome";
@@ -25,6 +26,7 @@ public class TestBase {
 		  driver = new OperaDriver(); 
 	 }
 	 else if(br.equalsIgnoreCase("edge")) {
+		 WebDriverManager.edgedriver().setup();
 		  driver = new EdgeDriver();
 	 }
 	 else {
